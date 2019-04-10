@@ -4,10 +4,11 @@
 
 ## 我的电脑配置
 
-- 处理器   : AMD Ryzen™ 7 PRO 2700X
-- 主板     : Asrock X470 Taichi
-- 内存     : G.SKILL Flare X DDR4 2400MHz 8GBx2
-- 固态硬盘 : Asgard AN M.2 NVMe SSD 256GB
-- 显卡     : Colorful GeForce GTX1050Ti NB 4G
-- 显示器   : BenQ GW2480 x2
-- 操作系统 : MacOS 10.13.6 + WIN10 1809
+- 处理器&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: AMD Ryzen™ 7 PRO 2700X
+- 主板&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Asrock X470 Taichi
+- 内存&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: G.SKILL Flare X DDR4 2400MHz 8GBx2
+- 固态硬盘&nbsp;&nbsp;: Asgard AN M.2 NVMe SSD 256GB
+- 显卡&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Colorful GeForce GTX1050Ti NB 4096 MB
+- 显示器&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: BenQ GW2480 x2
+- 操作系统&nbsp;&nbsp;: MacOS 10.13.6 + WIN10 1809
+- 版本&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: iMac 14.2 (27-inch, Late 2013)
