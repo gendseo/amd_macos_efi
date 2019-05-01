@@ -1,0 +1,329 @@
+0:100  0:100  MemLog inited, TSC freq: 3593798640
+0:100  0:000  CPU was calibrated with RTC
+0:100  0:000  
+0:100  0:000  Now is 13.11.2018,  12:34:13 (GMT)
+0:100  0:000  Starting Clover revision: 4727 on American Megatrends EFI
+0:100  0:000  Build with: [Args: --x64-mcp --no-usb --ext-co -D NO_GRUB_DRIVERS_EMBEDDED | -D DISABLE_USB_SUPPORT -D NO_GRUB_DRIVERS_EMBEDDED -D USE_BIOS_BLOCKIO -D USE_LOW_EBDA -a X64 -b RELEASE -t XCODE8 -n 3 | OS: 10.13.4 | XCODE: 9.3.1]
+0:100  0:000  SelfDevicePath=PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x1)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,24880DB7-48F7-42DB-A9DB-8EA701D8F878,0x800,0x17C000) @D8040898
+0:100  0:000  SelfDirPath = \EFI\BOOT
+0:101  0:001  === [ Get Smbios ] ========================================
+0:101  0:000  Type 16 Index = 0
+0:101  0:000  Total Memory Slots Count = 4
+0:101  0:000  Type 17 Index = 0
+0:101  0:000  Table has error information, checking
+0:101  0:000  Found memory information in table 18/1, type=0x3, operation=0x2 syndrome=0x0
+0:101  0:000  ...memory OK
+0:101  0:000  SmbiosTable.Type17->Speed = 3200MHz
+0:101  0:000  SmbiosTable.Type17->Size = 8192MB
+0:101  0:000  SmbiosTable.Type17->Bank/Device = BANK 0 DIMM_A1
+0:101  0:000  SmbiosTable.Type17->Vendor = Unknown
+0:101  0:000  SmbiosTable.Type17->SerialNumber = 00000000
+0:101  0:000  SmbiosTable.Type17->PartNumber = F4-3200C14-8GTZR
+0:101  0:000  Type 17 Index = 1
+0:101  0:000  Table has error information, checking
+0:101  0:000  Found memory information in table 18/2, type=0x3, operation=0x2 syndrome=0x0
+0:101  0:000  ...memory OK
+0:101  0:000  SmbiosTable.Type17->Speed = 3200MHz
+0:101  0:000  SmbiosTable.Type17->Size = 8192MB
+0:101  0:000  SmbiosTable.Type17->Bank/Device = BANK 1 DIMM_A2
+0:101  0:000  SmbiosTable.Type17->Vendor = Unknown
+0:101  0:000  SmbiosTable.Type17->SerialNumber = 00000000
+0:101  0:000  SmbiosTable.Type17->PartNumber = F4-3200C14-8GTZR
+0:101  0:000  Type 17 Index = 2
+0:101  0:000  Table has error information, checking
+0:101  0:000  Found memory information in table 18/3, type=0x3, operation=0x2 syndrome=0x0
+0:101  0:000  ...memory OK
+0:101  0:000  SmbiosTable.Type17->Speed = 3200MHz
+0:101  0:000  SmbiosTable.Type17->Size = 8192MB
+0:101  0:000  SmbiosTable.Type17->Bank/Device = BANK 2 DIMM_B1
+0:101  0:000  SmbiosTable.Type17->Vendor = Unknown
+0:101  0:000  SmbiosTable.Type17->SerialNumber = 00000000
+0:101  0:000  SmbiosTable.Type17->PartNumber = F4-3200C14-8GTZR
+0:101  0:000  Type 17 Index = 3
+0:101  0:000  Table has error information, checking
+0:101  0:000  Found memory information in table 18/4, type=0x3, operation=0x2 syndrome=0x0
+0:101  0:000  ...memory OK
+0:101  0:000  SmbiosTable.Type17->Speed = 3200MHz
+0:101  0:000  SmbiosTable.Type17->Size = 8192MB
+0:101  0:000  SmbiosTable.Type17->Bank/Device = BANK 3 DIMM_B2
+0:101  0:000  SmbiosTable.Type17->Vendor = Unknown
+0:101  0:000  SmbiosTable.Type17->SerialNumber = 00000000
+0:101  0:000  SmbiosTable.Type17->PartNumber = F4-3200C14-8GTZR
+0:101  0:000  Boot status=0
+0:101  0:000  Running on: 'System Product Name' with board 'ROG STRIX B350-F GAMING'
+0:101  0:000  === [ GetCPUProperties ] ==================================
+0:101  0:000  CPU Vendor = 68747541 Model=800F11
+0:101  0:000   The CPU supported SSE4.1
+0:101  0:000  BrandString = AMD Ryzen 7 1700 Eight-Core Processor          
+0:101  0:000  	Looking to disable C1E if is already enabled by the BIOS:
+0:101  0:000  CurrentSpeed: 3600
+0:101  0:000  maxratio 72
+0:101  0:000  cpudid_zen 136
+0:101  0:000  FSBFrequency = 50 MHz, DMI FSBFrequency = 100 MHz, Corrected FSBFrequency = 100 MHz
+0:101  0:000  MaxDiv/MinDiv: 36.0/14
+0:101  0:000  Turbo: 0/0/0/0
+0:101  0:000  Features: 0x178BFBFF
+0:101  0:000  Threads: 16
+0:101  0:000  Cores: 8
+0:101  0:000  FSB: 100 MHz
+0:101  0:000  CPU: 3600 MHz
+0:101  0:000  TSC: 3600 MHz
+0:101  0:000  PIS: 100 MHz
+0:101  0:000  ExternalClock: 25 MHz
+0:101  0:000  === [ GetDevices ] ========================================
+0:101  0:000  PCI (00|00:00.00) : 1022 1450 class=060000
+0:101  0:000  PCI (00|00:01.00) : 1022 1452 class=060000
+0:101  0:000  PCI (00|00:01.03) : 1022 1453 class=060400
+0:101  0:000  PCI (00|01:00.00) : 1022 43BB class=0C0330
+0:101  0:000  PCI (00|01:00.01) : 1022 43B7 class=010601
+0:101  0:000  PCI (00|01:00.02) : 1022 43B2 class=060400
+0:101  0:000  PCI (00|02:00.00) : 1022 43B4 class=060400
+0:101  0:000  PCI (00|03:00.00) : 8086 1539 class=020000
+0:101  0:000   - LAN: 0 Vendor=Intel
+0:101  0:000  PCI (00|02:01.00) : 1022 43B4 class=060400
+0:101  0:000  PCI (00|02:04.00) : 1022 43B4 class=060400
+0:101  0:000  PCI (00|02:06.00) : 1022 43B4 class=060400
+0:101  0:000  PCI (00|02:07.00) : 1022 43B4 class=060400
+0:101  0:000  PCI (00|07:00.00) : 14E4 4353 class=028000
+0:101  0:000   - WIFI: Vendor=Broadcom
+0:101  0:000  PCI (00|00:02.00) : 1022 1452 class=060000
+0:101  0:000  PCI (00|00:03.00) : 1022 1452 class=060000
+0:101  0:000  PCI (00|00:03.01) : 1022 1453 class=060400
+0:101  0:000  PCI (00|08:00.00) : 1002 67DF class=030000
+0:101  0:000   - GFX: Model=AMD Radeon RX 480 (ATI/AMD)
+0:102  0:000  PCI (00|08:00.01) : 1002 AAF0 class=040300
+0:102  0:000   - HDMI Audio: 
+0:102  0:000  PCI (00|00:04.00) : 1022 1452 class=060000
+0:102  0:000  PCI (00|00:07.00) : 1022 1452 class=060000
+0:102  0:000  PCI (00|00:07.01) : 1022 1454 class=060400
+0:102  0:000  PCI (00|09:00.00) : 1022 145A class=130000
+0:102  0:000  PCI (00|09:00.02) : 1022 1456 class=108000
+0:102  0:000  PCI (00|09:00.03) : 1022 145C class=0C0330
+0:102  0:000  PCI (00|00:08.00) : 1022 1452 class=060000
+0:102  0:000  PCI (00|00:08.01) : 1022 1454 class=060400
+0:102  0:000  PCI (00|0A:00.00) : 1022 1455 class=130000
+0:102  0:000  PCI (00|0A:00.02) : 1022 7901 class=010601
+0:102  0:000  PCI (00|0A:00.03) : 1022 1457 class=040300
+0:102  0:000  PCI (00|00:14.00) : 1022 790B class=0C0500
+0:102  0:000  PCI (00|00:14.03) : 1022 790E class=060100
+0:102  0:000  PCI (00|00:18.00) : 1022 1460 class=060000
+0:102  0:000  PCI (00|00:18.01) : 1022 1461 class=060000
+0:102  0:000  PCI (00|00:18.02) : 1022 1462 class=060000
+0:102  0:000  PCI (00|00:18.03) : 1022 1463 class=060000
+0:102  0:000  PCI (00|00:18.04) : 1022 1464 class=060000
+0:102  0:000  PCI (00|00:18.05) : 1022 1465 class=060000
+0:102  0:000  PCI (00|00:18.06) : 1022 1466 class=060000
+0:102  0:000  PCI (00|00:18.07) : 1022 1467 class=060000
+0:102  0:000  === [ GetDefaultSettings ] ================================
+0:102  0:000  Clover load options size = 0 bytes
+0:109  0:007  EFI\CLOVER\config.plist loaded: Success
+0:109  0:000  === [ GetListOfThemes ] ===================================
+0:111  0:001  - [00]: Beauty
+0:115  0:004  - [01]: embedded
+0:118  0:003  - [01]: Girl
+0:122  0:003  - [02]: hongA
+0:125  0:003  - [03]: KENSHIN
+0:129  0:003  - [04]: random
+0:134  0:004  === [ Found config plists ] ===============================
+0:135  0:001  - config.plist
+0:136  0:001  - config_InjectATI.plist
+0:137  0:001  - config-backup.plist
+0:138  0:000  === [ GetEarlyUserSettings ] ==============================
+0:138  0:000  Custom boot CUSTOM_BOOT_DISABLED (0x0)
+0:138  0:000  KextsToPatch: 8 requested
+0:138  0:000   - [00]: com.apple.driver.AppleHDA (t1-10.12-AppleHDA-Realtek-ALC1220A) :: BinPatch :: data len: 4
+0:138  0:000   - [01]: com.apple.driver.AppleHDA (t1-AppleHDA-Resources-xml>zml-(cloverALC-all_codecs)) :: BinPatch :: data len: 6
+0:138  0:000   - [02]: com.apple.driver.AppleHDA (t1-10.12-AppleHDA-Realtek-ALC...(cloverALC-all_codecs)) :: MatchOS: 10.12.x,10.13.x,10.14.x :: BinPatch :: data len: 4
+0:138  0:000   - [03]: com.apple.driver.AppleHDA (t1-10.11-AppleHDA-Realtek-ALC...(cloverALC-all_codecs)) :: MatchOS: 10.11.x :: BinPatch :: data len: 4
+0:138  0:000   - [04]: com.apple.driver.AirPort.Brcm4360 (Brcm4360) :: BinPatch :: data len: 19
+0:138  0:000   - [05]: AppleHDAController (add 1022 vendor id (breaks nvdia hdmi)) :: BinPatch :: data len: 15
+0:138  0:000   - [06]: AppleHDAController (hardcoding 1022 1457 ) :: BinPatch :: data len: 4
+0:138  0:000   - [07]: AppleUSBXHCIPCI (change 15 port limit to 26 in XHCI kext (100-series)) :: MatchOS: 10.13.6 :: BinPatch :: data len: 4
+0:138  0:000  Default theme: KENSHIN
+0:138  0:000  Hiding entries with string Recovery
+0:138  0:000  Hiding entries with string Preboot
+0:138  0:000  === [ LoadDrivers ] =======================================
+0:140  0:002  Loading ApfsDriverLoader-64.efi  status=Success
+0:145  0:004   - driver needs connecting
+0:145  0:000  Loading AppleImageCodec-64.efi  status=Success
+0:149  0:003  Loading AppleKeyAggregator-64.efi  status=Success
+0:153  0:003  Loading AppleUITheme-64.efi  status=Success
+0:156  0:003  Loading DataHubDxe-64.efi  status=Success
+0:161  0:004  Loading FirmwareVolume-64.efi  status=Success
+0:165  0:004  Loading FSInject-64.efi  status=Success
+0:169  0:003  Loading OsxAptioFixDrv-64.efi  status=Success
+0:172  0:003  Loading OsxFatBinaryDrv-64.efi  status=Success
+0:176  0:003  Loading SMCHelper-64.efi  status=Success
+0:180  0:003  Loading VBoxHfs-64.efi  status=Success
+0:184  0:004   - driver needs connecting
+0:185  0:000  2 drivers needs connecting ...
+0:185  0:000  PlatformDriverOverrideProtocol not found. Installing ... Success
+0:185  0:000  APFS driver loaded
+0:185  0:000  Searching for invalid DiskIo BY_DRIVER connects:
+0:187  0:002   - Handle D7D45F18 with DiskIo, is Partition, no Fs, BY_DRIVER Agent: D8052C18, Disconnect: Success
+1:071  0:883  === [ InitScreen ] ========================================
+1:071  0:000  SetScreenResolution: 1920x1080 - not found!
+1:071  0:000  SetMaxResolution: found best mode 0: 2560x1440
+1:087  0:015  Video mode change to mode #0: Success
+1:087  0:000   - set
+1:087  0:000  Console modes reported: 4, available modes:
+1:087  0:000   - [01]: 80x25 (current mode)
+1:087  0:000   - [02]: 80x50
+1:087  0:000   - [03]: 100x31
+1:087  0:000   - [04]: 320x75
+1:087  0:000  reinit: self device path=PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x1)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,24880DB7-48F7-42DB-A9DB-8EA701D8F878,0x800,0x17C000)
+1:089  0:001  === [ GetMacAddress ] =====================================
+1:089  0:000   get legacy LAN MAC, 1 card found
+1:089  0:000  Legacy MAC address of LAN #0= B0:6E:BF:BA:52:D6:
+1:089  0:000  === [ ScanSPD ] ===========================================
+1:089  0:000  === [ GetAcpiTablesList ] =================================
+1:089  0:000  Get Acpi Tables List from RSDT:
+1:089  0:000   - [00]: FACP  A M I  len=132
+1:089  0:000   - [01]: APIC  A M I  len=222
+1:089  0:000   - [02]: FPDT  A M I  len=68
+1:089  0:000   - [03]: FIDT  A M I len=156
+1:089  0:000   - [04]: SSDT  AmdTable len=6721
+1:089  0:000   - [05]: SSDT  AMD ALIB len=35992
+1:089  0:000   - [06]: SSDT  AMD CPU len=7156
+1:089  0:000   - [07]: CRAT  AMD CRAT len=3920
+1:089  0:000   - [08]: CDIT  AMD CDIT len=41
+1:089  0:000   - [09]: SSDT  AMD AOD len=11688
+1:089  0:000   - [10]: MCFG  A M I len=60
+1:089  0:000   - [11]: HPET  A M I len=56
+1:089  0:000   - [12]: SSDT  FCHZP len=36
+1:089  0:000   - [13]: UEFI   len=66
+1:089  0:000   - [14]: VFCT  A M I  len=59524
+1:089  0:000   - [15]: SSDT  AMD PT len=248
+1:089  0:000  Calibrated TSC Frequency = 3593798640 = 3593MHz
+1:089  0:000  === [ GetUserSettings ] ===================================
+1:089  0:000  USB FixOwnership: yes
+1:089  0:000   - final DSDT Fix mask=00400000
+1:089  0:000  PatchesDSDT: 6 requested
+1:089  0:000   - [00]: (change HECI to IMEI) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+1:089  0:000   - [01]: (change GFX0 to IGPU) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+1:089  0:000   - [02]: (change PEGP to GFX0) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+1:089  0:000   - [03]: (AZAL to HDEF) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+1:089  0:000   - [04]: (D01A to HDEF) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+1:089  0:000   - [05]: (D018 to HDEF) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+1:089  0:000  Using ProductName from config: iMacPro1,1
+1:089  0:000  Found same BiosVersion in clover and config
+1:089  0:000  BiosVersion: IMP11.88Z.0064.B30.1712081714
+1:089  0:000  BiosReleaseDate: 12/08/2017
+1:089  0:000  Using EfiVersion from clover: 220.200.252.0.0
+1:089  0:000  Using FirmwareFeatures from config: 0xFD8FF53F
+1:089  0:000  Using FirmwareFeaturesMask from config: 0xFF9FFF3F
+1:089  0:000  Board-ID set from config as Mac-7DF2A3B5E5D671ED
+1:089  0:000  BoardType: 0xA
+1:089  0:000  ChassisType: 0x9
+1:089  0:000  Converted CustomUUID 1DE5D4B7-284C-4DE3-8BA2-D453D8C79EBB
+1:092  0:002  === [ Found DSDT tables ] =================================
+1:149  0:056  === [ ScanVolumes ] =======================================
+1:149  0:000  Found 22 volumes with blockIO
+1:149  0:000  - [00]: Volume: PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x0)\USB(0x6,0x0)
+1:149  0:000          Result of bootcode detection: bootable unknown (legacy)
+1:149  0:000          USB volume
+1:149  0:000  - [01]: Volume: PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x0)\USB(0x6,0x0)\HD(1,GPT,44D7A1DA-9C67-4159-A4B3-6EC4B942CB10,0x28,0x64000)
+1:150  0:000          Result of bootcode detection: bootable unknown (legacy)
+1:150  0:000          USB volume
+1:153  0:003  - [02]: Volume: PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x0)\USB(0x6,0x0)\HD(2,GPT,87BE4360-E92A-41E4-A956-C2010885F2A3,0x64028,0xD54450)
+1:154  0:000          USB volume
+1:154  0:000  - [03]: Volume: PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x1)\Sata(0x0,0xFFFF,0x0)
+1:155  0:000  - [04]: Volume: PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x1)\Sata(0x1,0xFFFF,0x0)
+1:155  0:000  - [05]: Volume: PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x1)\Sata(0x4,0xFFFF,0x0)
+1:179  0:023          Result of bootcode detection: bootable unknown (legacy)
+1:179  0:000  - [06]: Volume: PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x1)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,24880DB7-48F7-42DB-A9DB-8EA701D8F878,0x800,0x17C000)
+1:180  0:000          Result of bootcode detection: bootable Windows (win)
+1:183  0:003          This is SelfVolume !!
+1:183  0:000  - [07]: Volume: PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x1)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,C0C173A1-7F8F-11E8-A894-7CE9D38401BA,0x17C800,0x4D667DC)
+1:183  0:000          Result of bootcode detection: bootable Windows (vista,win)
+1:186  0:002  - [08]: Volume: PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x1)\Sata(0x0,0xFFFF,0x0)\HD(3,GPT,B5357C67-8752-4268-B49B-F5E04A7ABAC0,0x4EE3000,0x8CD0800)
+1:187  0:000          Result of bootcode detection: bootable Windows (vista,win)
+1:189  0:002  - [09]: Volume: PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x1)\Sata(0x0,0xFFFF,0x0)\HD(4,GPT,8CE0474B-3072-4AD5-A436-31F844153A71,0xDBB3800,0xE370C88)
+1:189  0:000          Result of bootcode detection: bootable unknown (legacy)
+1:189  0:000  - [10]: Volume: PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x1)\Sata(0x1,0xFFFF,0x0)\HD(1,GPT,AADB965C-7CD5-4B2B-837B-72D17FE659E6,0x172800,0x4A00800)
+1:190  0:000          Result of bootcode detection: bootable Windows (vista,win)
+1:219  0:028  - [11]: Volume: PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x1)\Sata(0x1,0xFFFF,0x0)\HD(2,GPT,24099B76-F6E4-4520-B0CC-77A5C866B02F,0x4B73000,0x191947AE)
+1:219  0:000          Result of bootcode detection: bootable Windows (vista,win)
+1:292  0:072  - [12]: Volume: PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x1)\Sata(0x1,0xFFFF,0x0)\HD(3,GPT,11FA86C0-3417-11E8-B7A3-8098CA40402F,0x1DD07800,0x19368EBA)
+1:292  0:000          Result of bootcode detection: bootable Windows (vista,win)
+1:359  0:066  - [13]: Volume: PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x1)\Sata(0x1,0xFFFF,0x0)\HD(4,GPT,11FA86C8-3417-11E8-B7A3-8098CA40402F,0x37070800,0xDD6676D)
+1:360  0:000          Result of bootcode detection: bootable Windows (vista,win)
+1:452  0:092  - [14]: Volume: PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x1)\Sata(0x1,0xFFFF,0x0)\HD(5,GPT,11FA86D8-3417-11E8-B7A3-8098CA40402F,0x44DD7000,0x1B799999)
+1:453  0:000          Result of bootcode detection: bootable Windows (vista,win)
+1:482  0:028  - [15]: Volume: PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x1)\Sata(0x1,0xFFFF,0x0)\HD(6,GPT,5BA9EBD1-2D8F-45FE-93EC-EC263837322C,0x60571000,0x1405FE68)
+1:482  0:000  - [16]: Volume: PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x1)\Sata(0x4,0xFFFF,0x0)\HD(1,MBR,0x64CA344A,0x40,0x1DF19781)
+1:487  0:004          Result of bootcode detection: bootable Windows (vista,win)
+1:512  0:024  - [17]: Volume: PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x1)\Sata(0x4,0xFFFF,0x0)\HD(2,MBR,0x64CA344A,0x1DF197C1,0x567EB83F)
+1:524  0:012  - [18]: Volume: PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x1)\Sata(0x0,0xFFFF,0x0)\HD(4,GPT,8CE0474B-3072-4AD5-A436-31F844153A71,0xDBB3800,0xE370C88)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,D7E277858D037743BC5BA08C6CA7438C)
+1:524  0:000          hiding this volume
+1:524  0:000  - [19]: Volume: PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x1)\Sata(0x0,0xFFFF,0x0)\HD(4,GPT,8CE0474B-3072-4AD5-A436-31F844153A71,0xDBB3800,0xE370C88)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,B64875DA8B24D540BF9596FC3DDEA16D)
+1:524  0:000  - [20]: Volume: PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x1)\Sata(0x0,0xFFFF,0x0)\HD(4,GPT,8CE0474B-3072-4AD5-A436-31F844153A71,0xDBB3800,0xE370C88)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,6C520BD3C5AB294F89163656FD7F8B81)
+1:524  0:000          hiding this volume
+1:524  0:000  - [21]: Volume: PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x1)\Sata(0x0,0xFFFF,0x0)\HD(4,GPT,8CE0474B-3072-4AD5-A436-31F844153A71,0xDBB3800,0xE370C88)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,1CC140073BA19A4AB8D1B60D3B96AC72)
+1:524  0:000  === [ InitTheme ] =========================================
+1:531  0:006  Using theme 'KENSHIN' (EFI\CLOVER\themes\KENSHIN)
+1:531  0:000  OS main and drive as badge
+1:535  0:004  Loading font from ThemeDir: Success
+1:535  0:000  Chosen theme KENSHIN
+1:535  0:000  after NVRAM boot-args=darkwake=no npci=0x2000
+1:535  0:000  === [ Dump SMC keys from NVRAM ] ==========================
+1:535  0:000  found AppleSMC protocol
+1:603  0:067  Registered 16 SMC keys
+1:605  0:002  === [ ScanLoader ] ========================================
+1:605  0:000  - [01]: 'EFI'
+1:695  0:090          AddLoaderEntry for Volume Name=EFI
+1:695  0:000          skipped because entry is hidden
+1:695  0:000  - [02]: 'lingxi_AMD_Ryzen_macOS_10.13.3_QQ447121584'
+1:707  0:012          AddLoaderEntry for Volume Name=lingxi_AMD_Ryzen_macOS_10.13.3_QQ447121584
+1:786  0:078  - [06]: 'EFI'
+1:876  0:089          AddLoaderEntry for Volume Name=EFI
+1:876  0:000          skipped because entry is hidden
+1:876  0:000  - [07]: 'WIN10'
+1:880  0:004          AddLoaderEntry for Volume Name=WIN10
+1:948  0:068          AddLoaderEntry for Volume Name=WIN10
+1:948  0:000          skipped because entry is hidden
+1:948  0:000  - [08]: ''
+2:010  0:061  - [10]: 'JIUWIN'
+2:041  0:031          AddLoaderEntry for Volume Name=JIUWIN
+2:119  0:077          AddLoaderEntry for Volume Name=JIUWIN
+2:119  0:000          skipped because entry is hidden
+2:119  0:000  - [11]: 'APP'
+2:181  0:061  - [12]: 'NAS'
+2:283  0:102          AddLoaderEntry for Volume Name=NAS
+2:283  0:000          skipped because entry is hidden
+2:283  0:000  - [13]: 'MUSIC'
+2:345  0:061  - [14]: 'WOT'
+2:406  0:061  - [15]: 'IMAC'
+2:483  0:076          AddLoaderEntry for Volume Name=IMAC
+2:493  0:010      Check if volume Is Hibernated:
+2:493  0:000      Check sleep image 'by signature':
+2:519  0:025      using default sleep image name = \private\var\vm\sleepimage
+2:531  0:011      sleepimage not found -> Not Found
+2:531  0:000      hibernated: no - sign
+2:535  0:003          [!] Icon 17 (icons\vol_internal_hfs.icns) not found (path: EFI\CLOVER\themes\KENSHIN)
+2:601  0:066  - [16]: ''
+2:663  0:061  - [18]: 'Preboot', hidden
+2:663  0:000  - [19]: 'MAC'
+2:714  0:051          AddLoaderEntry for Volume Name=MAC
+2:724  0:010      Check if volume Is Hibernated:
+2:724  0:000      Check sleep image 'by signature':
+2:744  0:020      read prefs \Library\Preferences\com.apple.PowerManagement.plist status=Success
+2:744  0:000      using default sleep image name = \private\var\vm\sleepimage
+2:753  0:008      sleepimage not found -> Not Found
+2:753  0:000      hibernated: no - sign
+2:756  0:003          [!] Icon 18 (icons\vol_internal_apfs.icns) not found (path: EFI\CLOVER\themes\KENSHIN)
+2:839  0:083  - [20]: 'Recovery', hidden
+2:839  0:000  - [21]: 'VM'
+2:901  0:061  === [ AddCustomTool ] =====================================
+2:912  0:010  === [ GetEfiBootDeviceFromNvram ] =========================
+2:913  0:000   - efi-boot-device-data: PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x1)\Sata(0x0,0xFFFF,0x0)\HD(4,GPT,8CE0474B-3072-4AD5-A436-31F844153A71,0xDBB3800,0xE370C88)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,B64875DA8B24D540BF9596FC3DDEA16D)
+2:913  0:000    - Volume: 'PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x1)\Sata(0x0,0xFFFF,0x0)\HD(4,GPT,8CE0474B-3072-4AD5-A436-31F844153A71,0xDBB3800,0xE370C88)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,B64875DA8B24D540BF9596FC3DDEA16D)'
+2:913  0:000    - LoaderPath: '<null string>'
+2:913  0:000    - Guid = 8CE0474B-3072-4AD5-A436-31F844153A71
+2:913  0:000  === [ FindStartupDiskVolume ] =============================
+2:913  0:000    - Volume: partition = PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x1)\Sata(0x0,0xFFFF,0x0)\HD(4,GPT,8CE0474B-3072-4AD5-A436-31F844153A71,0xDBB3800,0xE370C88)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,B64875DA8B24D540BF9596FC3DDEA16D)
+2:913  0:000     - searching for that partition
+2:913  0:000      - found entry 4. 'Boot macOS from MAC', Volume 'MAC'
+2:913  0:000  Boot redirected to Entry 4. 'Boot macOS from MAC'
+2:913  0:000  DefaultIndex=4 and MainMenu.EntryCount=9
+3:262  0:349  GUI ready
